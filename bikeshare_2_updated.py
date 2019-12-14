@@ -1,6 +1,5 @@
 import time
 import pandas as pd
-import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
@@ -247,6 +246,7 @@ def user_stats(df):
 
 
     # Display counts of gender
+    # this is important 
     
     try:
         gender_type = df["Gender"]
